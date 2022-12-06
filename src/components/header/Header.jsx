@@ -7,7 +7,8 @@ import {faStackOverflow} from '@fortawesome/fontawesome-free-brands'
 import {Link} from 'react-router-dom'
 
 const StyledHeader = styled.header`
-    background-color: #393939;
+    //background-color: #393939;
+    background-color: #967E76;
     box-shadow: 0 3px 3px rgba(0,0,0,.2);
     display:grid;
     grid-template-columns:220px 1fr 200px;
@@ -52,12 +53,13 @@ const LogoLink = styled(Link)`
 const SearchInput = styled.input`
     display:inline-block;
     box-sizing:border-box;
-    width:100%;
+    width:50%;
     border-radius: 3px;
     border:1px solid #777;
-    background: rgba(0,0,0,.1);
+    background: rgba(255,255,255,.5);
     padding:8px 10px;
     margin-top: 9px;
+    color: #000;
     // box-shadow: 0 1px 1px 1px #378ad3;
 `;
 

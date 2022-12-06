@@ -46,4 +46,4 @@ function QuestionsPage() {
   )
 }
 
-export default QuestionsPage
+export default QuestionsPage;

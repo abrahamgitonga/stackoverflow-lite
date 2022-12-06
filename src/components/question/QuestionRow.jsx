@@ -6,13 +6,19 @@ const QuestionStat = styled.div`
     text-align: center;
     display: inline-block;
     font-size: 1.2rem;
-    color: #aaa;
+    //color: #aaa;
     margin-top: 7px;
+    padding-top: 5px;
+    border: 1px solid red;
+    background-color: #E6DDC4;
+    margin:2px;
+    border-radius:5px;
     span{
         font-size: .7rem;
         display: block;
         font-weight: 300;
         margin-top: 4px;
+        
 
     }
 
@@ -49,7 +55,7 @@ const Tag = styled.span`
 `;
 
 const StyledQuestionRow = styled.div`
-    background-color: rgba(255,255,255,.05);
+    background-color: rgba(255,255,255,.5);
     padding:15px 15px 10px;
     display:grid;
     grid-template-columns: repeat(3, 50px) 1fr;
@@ -100,4 +106,4 @@ function QuestionRow() {
   )
 }
 
-export default QuestionRow
+export default QuestionRow; 

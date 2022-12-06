@@ -4,9 +4,11 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Slab:wght@300;400;700&display=swap');
  body{
-      background:#2d2d2d;
-      //background:#BCC2C2;
-      color:#fff;
+      //background:#2d2d2d;
+      background:#EFF5F5;
+      //background:#E8AA42;
+      color: #000;
+      //color:#fff;
       font-family: Patrick Hand&family;
       font-weight: 200px
 

@@ -10,7 +10,7 @@ width:100%;
 box-sizing: border-box;
 padding:10px;
 margin-bottom: 20px;
-color: #fff;
+color: #000;
 
 
 `

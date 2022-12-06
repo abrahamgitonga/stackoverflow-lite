@@ -20,21 +20,22 @@ const QuestionTextArea = styled.textarea`
   border: 1px solid #777;
   border-radius: 4px;
   display:block;
-  width:100%;
+  width:50%;
   box-sizing: border-box;
   padding:10px;
   min-height: 200px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #000;
   font-family: inherit;
 
 
 `
 const PreviewArea = styled.div`
-  padding: 10px 20px;
-  background-color: #444;
+  padding: 10px 5px;
+  background-color: #EAE3D2;
   margin-bottom: 20px;
   border-radius: 5px;  
+  width: 50%;
 
 
 `
